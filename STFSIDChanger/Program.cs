@@ -35,7 +35,7 @@ namespace STFSIDChanger
                 Console.WriteLine("Cannot load KV");
                 return;
             }
-            if (args.Length > 1)
+            if (args.Length == 3 || args.Length == 4)
             {
                 if (Directory.Exists(args[0]))
                 {
