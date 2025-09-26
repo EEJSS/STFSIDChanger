@@ -38,7 +38,7 @@ namespace STFSIDChanger
             if (args.Length == 3 || args.Length == 4)
             {
                 if (Directory.Exists(args[0]))
-                {
+                { 
                     string[] files = Directory.GetFiles(args[0]);
                     for (int i = 0; i < files.Length; i++)
                     {
